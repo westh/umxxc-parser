@@ -1,13 +1,13 @@
 import { Parser } from 'binary-parser'
 
-const MODEL_HEX_TO_MODEL_NAME = {
+const MODEL_NUMBER_TO_MODEL_NAME = {
   2403: 'UM24C',
   2505: 'UM25C',
   3404: 'UM34C'
 }
 
 const umxxcParser = new Parser()
-  .int16('model', { formatter: modelNumber => MODEL_HEX_TO_MODEL_NAME[modelNumber] || 'unknown' })
+  .int16('model', { formatter: modelNumber => MODEL_NUMBER_TO_MODEL_NAME[modelNumber] || 'unknown' })
   .int16('voltage', { formatter: voltage => voltage / 100 })
   .int16('current')
   .int32('power')
