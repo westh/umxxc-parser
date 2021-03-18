@@ -39,16 +39,16 @@ The `parsedMessage` will contain something that looks like the following:
   },
   selectedGroup: 0,
   groups: [
-    { acummulatedCurrent: 2, acummulatedPower: 10 }, // [mAh] [mWh]
-    { acummulatedCurrent: 0, acummulatedPower: 0 },
-    { acummulatedCurrent: 0, acummulatedPower: 0 },
-    { acummulatedCurrent: 0, acummulatedPower: 0 },
-    { acummulatedCurrent: 0, acummulatedPower: 0 },
-    { acummulatedCurrent: 0, acummulatedPower: 0 },
-    { acummulatedCurrent: 0, acummulatedPower: 0 },
-    { acummulatedCurrent: 0, acummulatedPower: 0 },
-    { acummulatedCurrent: 0, acummulatedPower: 0 },
-    { acummulatedCurrent: 0, acummulatedPower: 0 }
+    { accumulatedCurrent: 2, accumulatedPower: 10 }, // [mAh] [mWh]
+    { accumulatedCurrent: 0, accumulatedPower: 0 },
+    { accumulatedCurrent: 0, accumulatedPower: 0 },
+    { accumulatedCurrent: 0, accumulatedPower: 0 },
+    { accumulatedCurrent: 0, accumulatedPower: 0 },
+    { accumulatedCurrent: 0, accumulatedPower: 0 },
+    { accumulatedCurrent: 0, accumulatedPower: 0 },
+    { accumulatedCurrent: 0, accumulatedPower: 0 },
+    { accumulatedCurrent: 0, accumulatedPower: 0 },
+    { accumulatedCurrent: 0, accumulatedPower: 0 }
   ],
   usbDataPlus: 0.04, // [V]
   usbDataMinus: 0.03, // [V]
